@@ -5,7 +5,7 @@ import pandas as pd
 from geopy.geocoders import Nominatim
 
 # Cargar el archivo de Excel
-file_path = "direcciones columnas caba.xlsx"
+file_path = "C:\Users\atrig\Documents\progGithub\numero1\direcciones columnas caba.xlsx"
 df = pd.read_excel(file_path, sheet_name="Cabacol")
 
 # Inicializar el geocodificador (es gratuito y usa OpenStreetMap)
